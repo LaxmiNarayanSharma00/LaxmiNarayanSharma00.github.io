@@ -1,0 +1,9 @@
+# Group 1
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+# Group 2
+User-agent: *
+Allow: /
+http://localhost:8000/
+python -m http.server
